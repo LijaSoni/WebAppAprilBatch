@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ABC.aspx" />
     <Content Include="Default.jpg" />
     <Content Include="First.aspx" />
     <Content Include="P1.aspx" />
@@ -86,6 +87,13 @@
     <Content Include="WebForm7.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABC.aspx.cs">
+      <DependentUpon>ABC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABC.aspx.designer.cs">
+      <DependentUpon>ABC.aspx</DependentUpon>
+    </Compile>
     <Compile Include="First.aspx.cs">
       <DependentUpon>First.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
